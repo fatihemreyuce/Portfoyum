@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Github, Linkedin, ArrowRight, Code2, Briefcase, Award } from "lucide-react";
 import { Link } from "react-router-dom";
-import SkillsDonut from "@/components/SkillsDonut"
+// import SkillsDonut from "@/components/SkillsDonut";
 
 export default function Home() {
   return (
@@ -90,11 +90,6 @@ export default function Home() {
             </span>
           ))}
         </div>
-      </section>
-
-      {/* DONUT GRAFİK */}
-      <section className="py-10">
-        <SkillsDonut />
       </section>
     </Container>
   );
