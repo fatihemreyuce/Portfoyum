@@ -1,4 +1,4 @@
-export type Tech = "react" | "ts" | "tailwind" | "node" | "other";
+export type Tech = "react" | "ts" | "tailwind" | "node" | "other" | "unity" | "Csharp";
 
 export interface Project {
   id: string;

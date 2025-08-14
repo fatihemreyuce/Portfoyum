@@ -19,6 +19,7 @@ const mockProjects: Project[] = [
     tech: ["react", "tailwind"],
     demoUrl: "#",
     repoUrl: "#",
+    stars : 8,
   },
   {
     id: "3",
@@ -27,6 +28,8 @@ const mockProjects: Project[] = [
     year: 2023,
     tech: ["node"],
     repoUrl: "#",
+    demoUrl: "#",
+    stars: 4,
   },
   {
     id: "4",
@@ -36,6 +39,7 @@ const mockProjects: Project[] = [
     tech: ["ts"],
     repoUrl: "#",
     stars: 5,
+    demoUrl: "#",
   },
   {
     id: "5",
@@ -45,6 +49,7 @@ const mockProjects: Project[] = [
     tech: ["react", "ts"],
     demoUrl: "#",
     repoUrl: "#",
+    stars: 1,
   },
   {
     id: "6",
@@ -53,6 +58,8 @@ const mockProjects: Project[] = [
     year: 2025,
     tech: ["ts", "tailwind"],
     repoUrl: "#",
+    demoUrl: "#",
+    stars: 1,
   },
   {
     id: "7",
@@ -61,6 +68,8 @@ const mockProjects: Project[] = [
     year: 2023,
     tech: ["node", "ts"],
     repoUrl: "#",
+    demoUrl: "#",
+    stars: 2, 
   },
   {
     id: "8",
@@ -70,6 +79,47 @@ const mockProjects: Project[] = [
     tech: ["tailwind"],
     demoUrl: "#",
     repoUrl: "#",
+    stars: 5,
+  },
+  {
+    id: "10",
+    title: "Horror Game",
+    description: "Korku temalı bir oyun.",
+    year: 2024,
+    tech: ["unity", "csharp"],
+    demoUrl: "#",
+    repoUrl: "#",
+    stars: 2,
+  },
+   {
+    id: "11",
+    title: "Dont Leave Me ",
+    description: "Korku temalı bir oyun.",
+    year: 2024,
+    tech: ["unity", "csharp"],
+    demoUrl: "#",
+    repoUrl: "#",
+    stars: 3,
+  },
+   {
+    id: "12",
+    title: "Tarifler",
+    description: "Hero, features, pricing; tamamen Tailwind.",
+    year: 2024,
+    tech: ["tailwind"],
+    demoUrl: "#",
+    repoUrl: "#",
+    stars: 8,
+  },
+   {
+    id: "13",
+    title: "Kampanya",
+    description: "Hero, features, pricing; tamamen Tailwind.",
+    year: 2024,
+    tech: ["tailwind"],
+    demoUrl: "#",
+    repoUrl: "#",
+    stars: 7,
   },
 ];
 
