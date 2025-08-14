@@ -8,8 +8,7 @@ import {
   Mail, Phone, MapPin, Github, Linkedin, Send,
   CheckCircle2, AlertCircle
 } from "lucide-react";
-import React, { useEffect, useRef, useState } from "react";
-import { type FormEvent } from "react";
+import React, { useEffect, useRef, useState, type FormEvent } from "react";
 
 const raw = import.meta.env.VITE_FORMSPREE_ID as string | undefined;
 const FORMSPREE_ENDPOINT = raw
